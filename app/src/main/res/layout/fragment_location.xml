@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.tools.LocationFrag"
+    android:background="@color/white">
+
+
+    <EditText
+        android:id="@+id/etNewLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Search for a city"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSearchLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/light_blue"
+        android:text="Search"
+        android:textSize="15sp" />
+
+</LinearLayout>

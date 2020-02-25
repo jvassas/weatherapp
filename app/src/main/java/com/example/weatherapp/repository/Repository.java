@@ -34,6 +34,7 @@ public class Repository {
         );
     }
 
+    //for db
     public void saveWeather(MyWeather weather) {
     }
 }
